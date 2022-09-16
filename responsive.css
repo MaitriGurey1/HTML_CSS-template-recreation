@@ -1,48 +1,31 @@
+/*CSS for making it responsive*/
 
+@media screen and (min-width: 320px) and (max-width: 640px) {
 
-@media  screen and (min-width: 320px) and (max-width: 640px) {
+	.top-container {
+		width: 80vw;
+		margin: 0 auto 20px auto;
+	}
 
- .container-top{
-    width: 80vw;
-    margin: 0 auto 20px auto;
- }
+	.red-text,
+	.normal-text {
+		margin: 0;
+		padding: 10px;
+	}
 
- .red-text,.normal-text{
-    margin: 0;
-    padding: 10px;
- }
- .container1{
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
- }
-.left-container{
-    width: auto;
-    margin:0;
-}
+	.grid-outer-container {
+		width: 80vw;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+	}
 
-.left-container:last-child{
-    margin-bottom: 30px;
-}
-}
+	.grid-inner-container {
+		width: auto;
+		margin: 0;
+	}
 
-/* .header{
-    background-color: #ff214f;
+	.grid-inner-container:last-child {
+		margin-bottom: 30px;
+	}
 }
-body{
-    position:relative;
-    background: red;
-}
-.homepage{
-width: 100vw;
-}
-
-.container-top{
-    width:100vw;
-}
-.container1{
-    display: grid;
-     grid-template-columns: 1fr 1fr;
-     width:90vw
-} */
