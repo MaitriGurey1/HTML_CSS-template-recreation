@@ -7,7 +7,11 @@
 
 body {
 	background: url("./images/bg-img.jpg") no-repeat center center/cover;
-	background-position: 5% 20%;
+	background-position-x: 100%;
+	background-position-y: 50%;
+	background-size: cover;
+	box-sizing: border-box;
+
 }
 
 
@@ -21,66 +25,53 @@ body {
 	top: 0;
 }
 
-
 /*CSS for top-container*/
-.top-container {
-	width: 45%;
-	margin: 2% 5%;
+.top-container{
+	width:81%;
+	margin:7%;
+	padding:2%;
 	background-color: #ecf0f1;
 }
-
-.red-text {
+.red-text{
 	color: #ff214f;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.3em;
-	padding: 4%;
+	padding:2%;
 }
-
-.normal-text {
-	font-size: 2em;
+.normal-text{
+	font-size: 2.5em;
 	font-family: 'Roboto', sans-serif;
-	padding: 0 4% 4% 4%;
+	padding:2%;
 }
-
 
 /*CSS for grid-container*/
-.grid-outer-container {
-	width: 46%;
-	margin: 2% 5%;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: auto auto;
-	grid-gap: 10px;
-	grid-auto-flow: column;
+.grid-outer-container{
+	display:grid;
+	width:85%;
+	margin:7%;	
 }
-
-.grid-inner-container {
-	width: 92%;
-	opacity: 0.8;
-	padding: 2%;
-	margin-right: 2%;
+.grid-inner-container{
+	margin-bottom:4%;
 	background-color: #ecf0f1;
+	padding:5%;
+	opacity:0.8;
 }
-
-.container-logo img {
-	width: 20%;
-	height: 25%;
-	padding: 2%;
+.container-logo img{
+	width:15%;
+	padding:3%;
+	margin-bottom:2%;
 }
-
-.container-heading {
+.container-heading{
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.2em;
-	padding: 4%;
+	padding: 2% 4%;
 	font-weight: bold;
 }
-
-.container-text {
+.container-text{
 	padding: 4%;
 	font-style: italic;
 	font-size: 1em;
 }
-
 
 /*CSS for footer section*/
 .footer {
@@ -90,12 +81,10 @@ body {
 	text-align: center;
 	font-family: sans-serif;
 }
-
 .footer a {
 	color: pink;
 	text-decoration: underline;
 }
-
 .footer a:hover {
 	text-decoration: none;
 	color: grey;
